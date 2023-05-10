@@ -1,0 +1,49 @@
+.card {
+  width: 300px;
+  border: 3px solid rgb(0, 145, 255);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 40px;
+  text-align: center;
+  transition: all 0.3s;
+  box-shadow: 0.8px 0.8px 15px 1px #888888;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0.11rem 0.11rem 1.7rem 0.2rem #888888;
+  cursor: pointer;
+}
+
+.card img {
+  height: 100px;
+  width: 100px;
+}
+
+.card h3 {
+  font-size: 26px;
+}
+
+.card .react {
+  color: rgb(33, 244, 255);
+}
+.card .javascript {
+  color: rgb(203, 203, 0);
+}
+.card .html {
+  color: #e74c3c;
+}
+.card .css {
+  color: #0277bd;
+}
+.card .bootstrap {
+  color: #673ab7;
+}
+
+.card p {
+  color: rgb(163, 163, 163);
+}
