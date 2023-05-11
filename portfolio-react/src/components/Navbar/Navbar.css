@@ -1,0 +1,37 @@
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  padding: 30px 90px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-items {
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+}
+
+.menu-icon {
+  font-size: 32px;
+  font-weight: bold;
+}
+.menu-icon span {
+  color: rgb(0, 145, 255);
+}
+
+@media screen and (max-width: 940px) {
+  .navbar {
+    padding: 30px 45px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .navbar-items {
+    display: none;
+  }
+}
